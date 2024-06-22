@@ -18,7 +18,7 @@ description = "A package for submitting and retrieving issues from a github repo
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-  'pytest >= 7.4.3',
+  'gspread >= 6.1.2', 'pytest >= 7.4.3',
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

@@ -8,7 +8,7 @@ The program was written by Nancy Fisher Hansen, a staff scientist in the Genome 
 
 ### Dependencies
 
-This program calls the "hub" command distributed [here](https://hub.github.com/) to interact with github. The hub tool needs to be installed, in your path, and configured with access to the repositories you intend to work with in order to run the tools in github_issues.
+This program calls the "hub" command distributed [here](https://hub.github.com/) to interact with github. The hub tool needs to be installed, in your path, and configured with access to the repositories you intend to work with in order to run the tools in github_issues. To interact with Google "Sheets", the program uses the "gspread" python library, which will be installed by pip if you follow the instructions in "Local Installation" below.
 
 All other dependencies are installed by the pip installer with the commands in the "Local Installation" section below. Feel free to post installation issues to the issues section of this github repository.
 
